@@ -1,0 +1,27 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+.style-image {
+    padding: 20px;
+    margin: 20px;
+    width: 350px;
+    background-color: greenyellow;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.style-text {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+}
+
+.style-price {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    color: red;
+    display: inline-block;
+}
