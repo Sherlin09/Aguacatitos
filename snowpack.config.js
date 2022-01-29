@@ -5,6 +5,6 @@ module.exports = {
         src: '/_dist_',
     },
     buildOptions: {
-        baseUrl: 'https://sherlin09.github.io/Aguacatitos',
+        baseUrl: '/Aguacatitos',
     },
 }
