@@ -4,7 +4,6 @@
 .style-image {
     padding: 20px;
     margin: 20px;
-    float: center;
     width: 350px;
     background-color: greenyellow;
     border-radius: 30px;
@@ -14,7 +13,6 @@
 .style-text {
     padding: 10px;
     margin: 10px;
-    float: center;
     width: 250px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline-block;
@@ -23,7 +21,6 @@
 .style-price {
     padding: 10px;
     margin: 10px;
-    float: center;
     width: 250px;
     color: red;
     display: inline-block;
