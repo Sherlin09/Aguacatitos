@@ -6,6 +6,15 @@
 const baseUrl = 'https://platzi-avo.vercel.app';
 const url = "https://platzi-avo.vercel.app/api/avo";
 const appNode = document.querySelector('#app');
+
+
+appNode.addEventListener("click", (event) => {
+    if (event.target.nodeName === "H2") {
+        window.alert("Hola");
+    }
+});
+
+
 const formatPrice = (price) => {
 
     const newPrice = new window.Intl.NumberFormat("en-ES", {
